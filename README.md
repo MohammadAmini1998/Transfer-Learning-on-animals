@@ -4,9 +4,15 @@
 
 This project aims to classify images of various animals using state-of-the-art deep learning models, specifically Transformers, ResNet18, and VGG16. The models are trained and evaluated on a comprehensive animal image dataset available on Kaggle.
 
-## Transformers
+## Transfer Learning
 
-Transformers, introduced in the paper "Attention is All You Need" by Vaswani et al., have revolutionized the field of natural language processing and have been successfully adapted for computer vision tasks. Unlike traditional convolutional neural networks (CNNs), Transformers leverage self-attention mechanisms to model global dependencies in the data. This allows them to capture intricate patterns and relationships within images, leading to superior performance in many vision tasks.
+Transfer learning is a technique where a model developed for a particular task is reused as the starting point for a model on a second task. It leverages the knowledge gained while solving one problem and applies it to a different but related problem. This is particularly useful in deep learning due to the high computational cost and the need for large datasets to train complex models from scratch.
+
+In this project, pre-trained models such as ResNet18 and VGG16, which were originally trained on large datasets like ImageNet, are fine-tuned on the animal image dataset. This approach has several benefits:
+
+- **Reduced Training Time**: Since the model is already partially trained, it requires less time to converge on the new dataset.
+- **Improved Performance**: The pre-trained model has already learned useful features from a large dataset, which can improve performance on the new task.
+- **Less Data Required**: Transfer learning can achieve good performance even with a smaller dataset.
 
 ## Dataset
 
