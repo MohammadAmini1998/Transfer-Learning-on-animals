@@ -45,17 +45,6 @@ ResNet18 is part of the ResNet (Residual Networks) family, which introduced the 
 
 For more details, you can refer to the [ResNet paper](https://arxiv.org/abs/1512.03385).
 
-## Project Structure
-
-- `data/`: Contains the animal image dataset.
-- `notebooks/`: Jupyter notebooks for data exploration, preprocessing, and model training.
-- `models/`: Pre-trained and fine-tuned models.
-- `scripts/`: Python scripts for training and evaluating the models.
-- `results/`: Evaluation metrics and model predictions.
-
 ## Usage
 
-1. **Clone the repository:**
-   ```bash
-   git clone https://github.com/yourusername/animal-image-classification.git
-   cd animal-image-classification
+1. **Clone the repository and simply run the ipynb file**
