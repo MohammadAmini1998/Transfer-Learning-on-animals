@@ -19,7 +19,7 @@ In this project, pre-trained models such as ResNet18 and VGG16, which were origi
 The dataset used in this project is the [Animal Image Dataset](https://www.kaggle.com/datasets/iamsouravbanerjee/animal-image-dataset-90-different-animals), which contains images of 90 different animals. It is a rich collection that provides a diverse set of challenges for image classification models. The dataset includes:
 
 - **Number of classes**: 90
-- **Total images**: 29,206
+- **Total images**: 5400
 - **Image format**: JPEG
 - **Image size**: Various
 
