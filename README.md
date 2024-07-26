@@ -33,6 +33,8 @@ VGG16 is a deep convolutional neural network architecture that was introduced by
 - **Depth**: With 16 layers, VGG16 is deeper than many earlier models, allowing it to capture more complex features.
 - **Performance**: VGG16 has been proven to perform well on a variety of image classification tasks, including the ImageNet challenge.
 
+For more details, you can refer to the [VGG16 paper](https://arxiv.org/abs/1409.1556).
+
 ## ResNet18
 
 ResNet18 is part of the ResNet (Residual Networks) family, which introduced the concept of residual learning. This architecture addresses the problem of vanishing gradients in deep networks by introducing skip connections, allowing gradients to flow more easily through the network. Key features of ResNet18 include:
@@ -40,6 +42,8 @@ ResNet18 is part of the ResNet (Residual Networks) family, which introduced the 
 - **Residual Blocks**: These blocks enable the training of very deep networks by allowing gradients to bypass one or more layers.
 - **Depth**: ResNet18 has 18 layers, making it less deep compared to VGG16 but highly efficient due to its residual connections.
 - **Efficiency**: Despite being shallower, ResNet18 often achieves comparable or even better performance than deeper networks without residual connections.
+
+For more details, you can refer to the [ResNet paper](https://arxiv.org/abs/1512.03385).
 
 ## Project Structure
 
