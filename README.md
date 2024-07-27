@@ -45,6 +45,10 @@ ResNet18 is part of the ResNet (Residual Networks) family, which introduced the 
 
 For more details, you can refer to the [ResNet paper](https://arxiv.org/abs/1512.03385).
 
+## Results
+![download](https://github.com/user-attachments/assets/e23028c4-2e2c-4a39-89d1-b80c2d8e74a1)
+
+
 ## Usage
 
 **Clone the repository and simply run the ipynb file**
