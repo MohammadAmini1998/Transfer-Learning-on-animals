@@ -50,6 +50,7 @@ ResNet18 is part of the ResNet (Residual Networks) family, which introduced the 
 ## 📈 Results
 
 ![Results](https://github.com/user-attachments/assets/e23028c4-2e2c-4a39-89d1-b80c2d8e74a1)
+![download](https://github.com/user-attachments/assets/e25905cd-08a5-4853-9d9a-cd978fd45ca3)
 
 ## 💻 Usage
 
