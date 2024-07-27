@@ -54,5 +54,5 @@ ResNet18 is part of the ResNet (Residual Networks) family, which introduced the 
 
 ## 💻 Usage
 
-To get started, clone the repository and run the Jupyter Notebook file:
+To use the code, simply clone the repo and run the ipynb file.
 
