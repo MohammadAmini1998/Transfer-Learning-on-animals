@@ -1,4 +1,4 @@
-# 🐾 Animal Image Classification using Transformers, ResNet18, and VGG16 🐾
+# 🐾 Animal Image Classification using Transfer Learning, ResNet18, and VGG16 🐾
 
 ## 📌 Overview
 
