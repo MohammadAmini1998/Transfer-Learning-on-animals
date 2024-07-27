@@ -55,7 +55,3 @@ ResNet18 is part of the ResNet (Residual Networks) family, which introduced the 
 
 To get started, clone the repository and run the Jupyter Notebook file:
 
-```bash
-git clone https://github.com/yourusername/animal-image-classification.git
-cd animal-image-classification
-jupyter notebook
