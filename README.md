@@ -1,54 +1,61 @@
-# Animal Image Classification using Transformers, ResNet18, and VGG16
+# 🐾 Animal Image Classification using Transformers, ResNet18, and VGG16 🐾
 
-## Overview
+## 📌 Overview
 
 This project aims to classify images of various animals using state-of-the-art deep learning models, specifically Transformers, ResNet18, and VGG16. The models are trained and evaluated on a comprehensive animal image dataset available on Kaggle.
 
-## Transfer Learning
+## 🔄 Transfer Learning
 
-Transfer learning is a technique where a model developed for a particular task is reused as the starting point for a model on a second task. It leverages the knowledge gained while solving one problem and applies it to a different but related problem. This is particularly useful in deep learning due to the high computational cost and the need for large datasets to train complex models from scratch.
+Transfer learning is a technique where a model developed for one task is reused as the starting point for a model on a second task. This project leverages pre-trained models like ResNet18 and VGG16, which were originally trained on large datasets such as ImageNet, and fine-tunes them on the animal image dataset.
 
-In this project, pre-trained models such as ResNet18 and VGG16, which were originally trained on large datasets like ImageNet, are fine-tuned on the animal image dataset. This approach has several benefits:
+### Benefits of Transfer Learning:
+- **⏱ Reduced Training Time**: The model, already partially trained, requires less time to converge.
+- **🚀 Improved Performance**: Pre-trained models have learned useful features from a large dataset, enhancing performance on the new task.
+- **📉 Less Data Required**: Achieve good performance even with a smaller dataset.
 
-- **Reduced Training Time**: Since the model is already partially trained, it requires less time to converge on the new dataset.
-- **Improved Performance**: The pre-trained model has already learned useful features from a large dataset, which can improve performance on the new task.
-- **Less Data Required**: Transfer learning can achieve good performance even with a smaller dataset.
+## 📊 Dataset
 
-## Dataset
+The dataset used in this project is the [Animal Image Dataset](https://www.kaggle.com/datasets/iamsouravbanerjee/animal-image-dataset-90-different-animals), which contains images of 90 different animals. It provides a rich collection of diverse challenges for image classification models.
 
-The dataset used in this project is the [Animal Image Dataset](https://www.kaggle.com/datasets/iamsouravbanerjee/animal-image-dataset-90-different-animals), which contains images of 90 different animals. It is a rich collection that provides a diverse set of challenges for image classification models. The dataset includes:
-
+### Dataset Details:
 - **Number of classes**: 90
 - **Total images**: 5400
 - **Image format**: JPEG
 - **Image size**: Various
 
-This dataset is ideal for training and evaluating deep learning models due to its variety and complexity.
+## 🧠 Models
 
-## VGG16
+### VGG16
 
-VGG16 is a deep convolutional neural network architecture that was introduced by the Visual Geometry Group (VGG) at the University of Oxford. It consists of 16 layers, including 13 convolutional layers and 3 fully connected layers. The key features of VGG16 are:
+VGG16 is a deep convolutional neural network architecture introduced by the Visual Geometry Group (VGG) at the University of Oxford. It consists of 16 layers, including 13 convolutional layers and 3 fully connected layers.
 
-- **Simplicity**: The architecture uses small (3x3) convolution filters, making it straightforward yet powerful.
-- **Depth**: With 16 layers, VGG16 is deeper than many earlier models, allowing it to capture more complex features.
-- **Performance**: VGG16 has been proven to perform well on a variety of image classification tasks, including the ImageNet challenge.
+#### Key Features:
+- **Simplicity**: Uses small (3x3) convolution filters.
+- **Depth**: With 16 layers, it captures more complex features.
+- **Performance**: Proven to perform well on various image classification tasks, including the ImageNet challenge.
 
-For more details, you can refer to the [VGG16 paper](https://arxiv.org/abs/1409.1556).
+[Read the VGG16 Paper](https://arxiv.org/abs/1409.1556)
 
-## ResNet18
+### ResNet18
 
-ResNet18 is part of the ResNet (Residual Networks) family, which introduced the concept of residual learning. This architecture addresses the problem of vanishing gradients in deep networks by introducing skip connections, allowing gradients to flow more easily through the network. Key features of ResNet18 include:
+ResNet18 is part of the ResNet (Residual Networks) family, which introduced the concept of residual learning. This architecture addresses the problem of vanishing gradients in deep networks by introducing skip connections, allowing gradients to flow more easily.
 
-- **Residual Blocks**: These blocks enable the training of very deep networks by allowing gradients to bypass one or more layers.
-- **Depth**: ResNet18 has 18 layers, making it less deep compared to VGG16 but highly efficient due to its residual connections.
-- **Efficiency**: Despite being shallower, ResNet18 often achieves comparable or even better performance than deeper networks without residual connections.
+#### Key Features:
+- **Residual Blocks**: Enable training of very deep networks.
+- **Depth**: Has 18 layers, making it less deep but highly efficient due to its residual connections.
+- **Efficiency**: Achieves comparable or even better performance than deeper networks without residual connections.
 
-For more details, you can refer to the [ResNet paper](https://arxiv.org/abs/1512.03385).
+[Read the ResNet Paper](https://arxiv.org/abs/1512.03385)
 
-## Results
-![download](https://github.com/user-attachments/assets/e23028c4-2e2c-4a39-89d1-b80c2d8e74a1)
+## 📈 Results
 
+![Results](https://github.com/user-attachments/assets/e23028c4-2e2c-4a39-89d1-b80c2d8e74a1)
 
-## Usage
+## 💻 Usage
 
-**Clone the repository and simply run the ipynb file**
+To get started, clone the repository and run the Jupyter Notebook file:
+
+```bash
+git clone https://github.com/yourusername/animal-image-classification.git
+cd animal-image-classification
+jupyter notebook
