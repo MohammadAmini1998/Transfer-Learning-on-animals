@@ -2,7 +2,7 @@
 
 ## 📌 Overview
 
-This project aims to classify images of various animals using state-of-the-art deep learning models, specifically Transformers, ResNet18, and VGG16. The models are trained and evaluated on a comprehensive animal image dataset available on Kaggle.
+This project aims to classify images of various animals using state-of-the-art deep learning models, specifically, ResNet18, and VGG16. The models are trained and evaluated on a comprehensive animal image dataset available on Kaggle.
 
 ## 🔄 Transfer Learning
 
